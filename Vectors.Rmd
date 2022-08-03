@@ -66,4 +66,14 @@ str(penguins)
 ```
 
 
+# A Cool Update
+
+```{r}
+vector_1 <- c("Hello", "I'm", "Wade")
+vector_2 <- c("Hello", "I'm", "Ed")
+
+my_df <- data.frame(vector_1, vector_2)
+my_df
+```
+
 
