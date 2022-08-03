@@ -48,7 +48,22 @@ bananas %*% apples
 
 ```
 
+### Matrices
 
+```{r}
+my_values <- seq(from = 1, to = 5)
+
+my_matrix <- matrix(data = my_values, nrow = 2, ncol = 5, byrow = TRUE)
+
+my_matrix
+```
+
+
+```{r}
+glimpse(penguins)
+str(penguins)
+
+```
 
 
 
