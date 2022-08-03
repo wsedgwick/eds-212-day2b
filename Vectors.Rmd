@@ -1,0 +1,54 @@
+---
+title: "Creating & Working with Vectors"
+author: "Wade Sedgwick"
+date: '2022-08-03'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(palmerpenguins)
+```
+
+# Set global options for the rest of the document - set global options and attach packages
+
+## Make some vectors
+
+```{r}
+marmots <- c("blue", "green", 4, "yellow")
+
+# Check class
+class(marmots)
+```
+
+```{r}
+pika <- c(12.4, 6.8, 2.9, 8.8, 8.5)
+class(pika)
+
+# Scalar multiplier
+
+scalar_pika <- 5.2 * pika
+
+scalar_pika
+```
+
+```{r}
+bananas <- c(1, 2, 3)
+apples <- c(6, 7, 8)
+
+apples + bananas
+
+bananas - apples
+
+# Dot product in R - %*%
+
+bananas %*% apples
+
+```
+
+
+
+
+
